@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (API keys etc)
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Puppeteer Chromium downloads
+.chromium/
+.puppeteer/
+**/chrome*
+**/chromium*
+
+# Build / output
+dist/
+build/
+tmp/
+temp/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Mac / Linux leftovers
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports (if using tests later)
+coverage/
+
+# Generated PDFs (optional — if you ever save them)
+*.pdf
